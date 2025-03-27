@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        //hjshhjhd
         viewModel.messages.observe(this) { messages ->
             adapter.updateMessages(messages)
             recyclerView.scrollToPosition(messages.size - 1)
